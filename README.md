@@ -15,6 +15,12 @@ A beautiful, responsive portfolio website built with Next.js 15+, Tailwind CSS 4
 - **Authentication Ready**: Supabase integration for user accounts
 - **Form Validation**: React Hook Form with Zod schema validation
 
+## 🌐 Live Demo
+
+🔗 **Production**: [https://dell-portfolio-koushik.vercel.app](https://dell-portfolio-koushik.vercel.app)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Koushik-Saha/Dell-Portfolio)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -103,6 +109,33 @@ Update `tailwind.config.js` and `app/globals.css` for:
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
+- `npm run lint:fix` - Fix ESLint issues automatically
+- `npm run type-check` - Run TypeScript type checking
+- `npm run analyze` - Analyze bundle size
+- `npm run preview` - Build and preview production locally
+- `npm run deploy` - Deploy to Vercel production
+- `npm run deploy:preview` - Deploy preview to Vercel
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+
+This portfolio is optimized for deployment on Vercel:
+
+1. **One-Click Deploy**: Use the deploy button above
+2. **Manual Setup**: Import repository in [Vercel Dashboard](https://vercel.com/new)
+3. **CLI Deploy**: Run `npm run deploy`
+
+### CI/CD Pipeline
+
+Automated deployment with GitHub Actions:
+- ✅ Code quality checks (ESLint, TypeScript)
+- 🔒 Security scanning
+- 📊 Performance audits (Lighthouse)
+- 🚀 Automatic production deployment
+- 🔍 PR preview deployments
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed setup instructions.
 
 ## 📱 Pages & Features
 

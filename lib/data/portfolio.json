@@ -86,7 +86,7 @@
       "company": "Powerley",
       "position": "Software Engineer",
       "startDate": "2023-01",
-      "endDate": "present",
+      "endDate": null,
       "location": "Royal Oak, Michigan (Remote)",
       "description": "Energy management company focused on building scalable web applications for 1M+ users, driving energy efficiency and green energy adoption.",
       "responsibilities": [
@@ -189,11 +189,12 @@
         "Performance optimization for 1M+ users"
       ],
       "links": {
+        "github": "",
         "live": "https://powerley.com"
       },
       "status": "completed",
       "startDate": "2023-01",
-      "endDate": "present"
+      "endDate": null
     },
     {
       "id": "2",
@@ -209,7 +210,10 @@
         "Scalable architecture for 1000+ sites",
         "Real-time preview and editing"
       ],
-      "links": {},
+      "links": {
+        "github": "",
+        "live": ""
+      },
       "status": "completed",
       "startDate": "2021-05",
       "endDate": "2022-12"
@@ -228,7 +232,10 @@
         "Security system visualization",
         "Export to multiple formats"
       ],
-      "links": {},
+      "links": {
+        "github": "",
+        "live": ""
+      },
       "status": "completed",
       "startDate": "2021-08",
       "endDate": "2022-10"
@@ -248,6 +255,7 @@
         "Performance-optimized APIs"
       ],
       "links": {
+        "github": "",
         "live": "https://moveon.com.bd"
       },
       "status": "completed",
@@ -268,7 +276,10 @@
         "Responsive design",
         "Student-teacher interaction"
       ],
-      "links": {},
+      "links": {
+        "github": "",
+        "live": ""
+      },
       "status": "completed",
       "startDate": "2017-03",
       "endDate": "2017-11"
@@ -287,7 +298,10 @@
         "Responsive design optimization",
         "CI/CD pipeline implementation"
       ],
-      "links": {},
+      "links": {
+        "github": "",
+        "live": ""
+      },
       "status": "completed",
       "startDate": "2018-01",
       "endDate": "2020-05"
@@ -335,7 +349,7 @@
       "organization": "JAAGO Foundation",
       "role": "Senior Member",
       "startDate": "2018-03",
-      "endDate": "present",
+      "endDate": null,
       "description": "Active participation in volunteer activities, driving educational and community development projects for underprivileged children, and operating a school for disabled children.",
       "achievements": [
         "Achieved significant academic and social improvements for over 100 students annually",

@@ -298,7 +298,7 @@ function ProjectCard({ project, index }: { project: any, index: number }) {
 
           {/* Links */}
           <div className="flex gap-3">
-            {project.links.github && (
+            {project.links?.github && project.links.github.trim() && (
               <motion.a
                 href={project.links.github}
                 target="_blank"
@@ -311,7 +311,7 @@ function ProjectCard({ project, index }: { project: any, index: number }) {
                 Code
               </motion.a>
             )}
-            {project.links.live && (
+            {project.links?.live && project.links.live.trim() && (
               <motion.a
                 href={project.links.live}
                 target="_blank"

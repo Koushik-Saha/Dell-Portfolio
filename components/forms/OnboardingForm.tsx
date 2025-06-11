@@ -136,8 +136,8 @@ export default function OnboardingForm({ onComplete }: { onComplete: () => void 
               technologies: project.technologies,
               features: [],
               links: {
-                github: project.githubUrl || undefined,
-                live: project.liveUrl || undefined,
+                github: project.githubUrl || '',
+                live: project.liveUrl || '',
               },
               status: 'completed',
               startDate: new Date().toISOString().split('T')[0],
@@ -152,9 +152,9 @@ export default function OnboardingForm({ onComplete }: { onComplete: () => void 
         if (isValid) {
           const formData = socialForm.getValues()
           updateSocial({
-            github: formData.github || undefined,
-            linkedin: formData.linkedin || undefined,
-            twitter: formData.twitter || undefined,
+            github: formData.github || '',
+            linkedin: formData.linkedin || '',
+            twitter: formData.twitter || '',
             email: data.personal.email,
           })
           toast.success('Social links saved!')

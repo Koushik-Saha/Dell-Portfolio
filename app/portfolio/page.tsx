@@ -147,7 +147,7 @@ export default function PortfolioPage() {
                   </div>
                   
                   <div className="flex gap-3">
-                    {project.links.github && (
+                    {project.links?.github && project.links.github.trim() && (
                       <motion.a
                         href={project.links.github}
                         target="_blank"
@@ -159,7 +159,7 @@ export default function PortfolioPage() {
                         Code
                       </motion.a>
                     )}
-                    {project.links.live && (
+                    {project.links?.live && project.links.live.trim() && (
                       <motion.a
                         href={project.links.live}
                         target="_blank"

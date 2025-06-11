@@ -69,8 +69,8 @@ export interface Project {
   technologies: string[]
   features: string[]
   links: {
-    github?: string
-    live?: string
+    github: string
+    live: string
   }
   status: 'completed' | 'in-progress' | 'planned'
   startDate: string
@@ -94,9 +94,9 @@ export interface Research {
 }
 
 export interface Social {
-  github?: string
-  linkedin?: string
-  twitter?: string
+  github: string
+  linkedin: string
+  twitter: string
   email: string
 }
 
@@ -154,8 +154,8 @@ export const usePortfolioData = () => {
       ...project,
       id: Date.now().toString(),
       links: {
-        github: project.links?.github || undefined,
-        live: project.links?.live || undefined,
+        github: project.links?.github || '',
+        live: project.links?.live || '',
       }
     }
     setData(prev => ({

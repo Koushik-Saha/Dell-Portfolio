@@ -1,0 +1,354 @@
+{
+  "personal": {
+    "name": "Koushik Saha",
+    "title": "Software Engineer",
+    "bio": "Driven and innovative Software Engineer, skilled in React, Next.js, Node.js, Python and micro front-end architecture. Excels at developing scalable, high-performance applications while mentoring junior developers to achieve team goals. Enthusiastic about fostering collaboration, delivering user-focused solutions, and creating a supportive environment that accelerates project delivery and maximizes business impact.",
+    "avatar": "/images/avatar.jpg",
+    "accentColor": "#3B82F6",
+    "email": "Koushik.saha666@gmail.com",
+    "location": "Los Angeles, CA, USA",
+    "phone": "(747)-231-8876"
+  },
+  "navigation": [
+    { "id": "home", "label": "Home", "href": "/" },
+    { "id": "education", "label": "Education & Certificates", "href": "/education" },
+    { "id": "experience", "label": "Work Experience", "href": "/experience" },
+    { "id": "projects", "label": "Projects", "href": "/projects" },
+    { "id": "research", "label": "Research", "href": "/research" },
+    { "id": "contact", "label": "Contact & Resume", "href": "/contact" }
+  ],
+  "skills": {
+    "frontend": [
+      "React.js", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "SCSS",
+      "Redux Toolkit", "React Query", "React Router", "React Hook Form", "Tailwind CSS",
+      "Styled-components", "Ant Design", "Bootstrap", "React Spring", "Anime.js"
+    ],
+    "backend": [
+      "Node.js", "Express.js", "Python", "Django", "PHP", "Laravel",
+      "MongoDB", "MySQL", "PostgreSQL", "REST APIs", "JWT", "Auth0"
+    ],
+    "tools": [
+      "Git", "Bitbucket", "Docker", "AWS S3", "Jenkins", "Figma", "Adobe XD", "Photoshop",
+      "Jest", "Cypress", "Selenium", "ESLint", "Prettier", "Storybook", "Jira", "Slack"
+    ],
+    "soft": [
+      "Effective Communication", "Strategic Problem-Solving", "Team Collaboration",
+      "Mentorship", "Requirement Analysis", "Creative Thinking", "Research & Development"
+    ]
+  },
+  "education": [
+    {
+      "id": "1",
+      "institution": "California State University, Northridge",
+      "degree": "Master of Science in Engineering Management",
+      "field": "Engineering Management",
+      "startDate": "2022-08",
+      "endDate": "2024-05",
+      "gpa": "3.8/4.0",
+      "description": "Advanced studies in engineering management, project management, and strategic leadership in technology organizations.",
+      "coursework": ["Engineering Economics", "Project Management", "Systems Engineering", "Quality Management", "Leadership"]
+    },
+    {
+      "id": "2",
+      "institution": "North South University",
+      "degree": "Bachelor of Science in Computer Science & Engineering",
+      "field": "Computer Science & Engineering",
+      "startDate": "2014-01",
+      "endDate": "2018-04",
+      "gpa": "3.7/4.0",
+      "description": "Comprehensive computer science education with focus on software engineering, algorithms, and system design.",
+      "coursework": ["Data Structures", "Algorithms", "Software Engineering", "Database Systems", "Operating Systems", "Computer Networks"]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "name": "Web Development – React JS Certificate Training",
+      "issuer": "Coursera",
+      "issueDate": "2018-06",
+      "expiryDate": "Lifetime",
+      "credentialId": "COURSERA-REACT-2018",
+      "image": "/images/certificates/react-coursera.png"
+    },
+    {
+      "id": "2",
+      "name": "JavaScript Development Certified Professional",
+      "issuer": "Coursera",
+      "issueDate": "2019-10",
+      "expiryDate": "Lifetime",
+      "credentialId": "COURSERA-JS-2019",
+      "image": "/images/certificates/js-coursera.png"
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "company": "Powerley",
+      "position": "Software Engineer",
+      "startDate": "2023-01",
+      "endDate": "present",
+      "location": "Royal Oak, Michigan (Remote)",
+      "description": "Energy management company focused on building scalable web applications for 1M+ users, driving energy efficiency and green energy adoption.",
+      "responsibilities": [
+        "Designed and developed a responsive Progressive Web Application for 1M users, driving 30% higher engagement",
+        "Engineered a React JS-powered system for power supply calculations, enhancing data processing efficiency",
+        "Developed a scalable React JS component library, reducing UI development time by 25%",
+        "Launched an NPM library for components, achieving 40% reduction in development time",
+        "Leveraged Tailwind CSS and Docker to streamline development and deployment processes"
+      ],
+      "technologies": ["React.js", "Next.js", "Tailwind CSS", "Docker", "PWA", "NPM"],
+      "achievements": [
+        "Improved user engagement by 30% through responsive PWA development",
+        "Reduced development time by 40% with reusable component library",
+        "Mentored junior developers and fostered collaborative team environment",
+        "Enhanced performance and integrated security best practices"
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Codemen Solution Inc",
+      "position": "Software Engineer",
+      "startDate": "2021-05",
+      "endDate": "2022-12",
+      "location": "Dhaka, Bangladesh (Remote)",
+      "description": "Software management company specializing in micro front-end architecture and innovative development solutions.",
+      "responsibilities": [
+        "Implemented micro front-end architecture, increasing performance and scalability by 25%",
+        "Streamlined deployments using reusable JSON-based code, reducing development effort",
+        "Created a React JS-based SVG modifier library with Photoshop-like functionalities",
+        "Optimized MongoDB for efficient data storage and retrieval, improving query performance",
+        "Developed Bootstrap-inspired UI library, cutting UI development time by 20%"
+      ],
+      "technologies": ["React.js", "MongoDB", "SVG", "Micro Frontend", "JSON", "Bootstrap"],
+      "achievements": [
+        "Reduced company costs by 30% through micro front-end implementation",
+        "Enhanced productivity by 40% with SVG modifier library",
+        "Improved query performance through MongoDB optimization",
+        "Built reusable component systems for multiple projects"
+      ]
+    },
+    {
+      "id": "3",
+      "company": "MoveOn Technologies Ltd",
+      "position": "Software Engineer",
+      "startDate": "2019-07",
+      "endDate": "2021-05",
+      "location": "Dhaka, Bangladesh (On-site)",
+      "description": "Software management company focused on e-commerce development and progressive web applications.",
+      "responsibilities": [
+        "Built e-commerce platforms using Next.js and React.js with integrated backend panels",
+        "Designed and deployed SEO-friendly PWA with Next.js and Redux for unified deployments",
+        "Constructed energetic dashboards and landing pages using React.js and Ant Design",
+        "Developed PHP and Laravel APIs, reducing response times by 20%",
+        "Coordinated with cross-functional teams for seamless integration"
+      ],
+      "technologies": ["Next.js", "React.js", "Redux", "PHP", "Laravel", "Ant Design", "PWA"],
+      "achievements": [
+        "Enhanced operational efficiency through integrated e-commerce platforms",
+        "Achieved unified codebase for web, Play Store, and App Store deployments",
+        "Boosted system performance by 30% through backend optimization",
+        "Improved user interaction through enhanced UI/UX design"
+      ]
+    },
+    {
+      "id": "4",
+      "company": "BD SOFT IT",
+      "position": "Junior Software Engineer",
+      "startDate": "2018-06",
+      "endDate": "2019-07",
+      "location": "Dhaka, Bangladesh (On-site)",
+      "description": "Software management company focused on component library development and scalable solutions.",
+      "responsibilities": [
+        "Introduced JavaScript component library, improving code reusability and reducing redundancy",
+        "Worked closely with backend developers to integrate frontend components with server-side logic",
+        "Designed and implemented scalable solutions to address evolving project requirements",
+        "Focused on optimizing workflows to create maintainable, efficient, and future-proof codebases"
+      ],
+      "technologies": ["JavaScript", "Component Libraries", "Frontend Integration"],
+      "achievements": [
+        "Streamlined project workflows enabling faster development cycles",
+        "Improved system reliability through seamless functionality integration",
+        "Created maintainable and scalable solutions for multiple projects",
+        "Enhanced development efficiency through reusable components"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Energy Management PWA for Powerley",
+      "description": "Progressive Web Application serving over 1M users for DTE Energy, focusing on energy management and green energy adoption. Features dynamic power calculations and real-time energy monitoring.",
+      "image": "/images/project1.jpg",
+      "technologies": ["React.js", "Next.js", "PWA", "Tailwind CSS", "Docker", "Energy APIs"],
+      "features": [
+        "Power supply calculation system",
+        "Real-time energy monitoring",
+        "Green energy utilization tracking",
+        "User engagement optimization",
+        "Responsive design for all devices",
+        "Performance optimization for 1M+ users"
+      ],
+      "links": {
+        "live": "https://powerley.com"
+      },
+      "status": "completed",
+      "startDate": "2023-01",
+      "endDate": "present"
+    },
+    {
+      "id": "2",
+      "title": "JSON-Driven CMS Platform",
+      "description": "WordPress-like platform that dynamically renders websites using JSON configurations. Allows non-technical users to launch and manage thousands of websites without frontend developers.",
+      "image": "/images/project2.jpg",
+      "technologies": ["React.js", "JSON", "Micro Frontend", "MongoDB", "Dynamic Rendering"],
+      "features": [
+        "JSON-based website configuration",
+        "Dynamic page and component rendering",
+        "Multi-site management system",
+        "No-code website builder",
+        "Scalable architecture for 1000+ sites",
+        "Real-time preview and editing"
+      ],
+      "links": {},
+      "status": "completed",
+      "startDate": "2021-05",
+      "endDate": "2022-12"
+    },
+    {
+      "id": "3",
+      "title": "SVG Security Layout Designer",
+      "description": "Drag-and-drop SVG editor for designing security layouts with real-time sensor integration. Features Photoshop-like functionalities including layer management and advanced editing tools.",
+      "image": "/images/project3.jpg",
+      "technologies": ["React.js", "SVG", "Drag & Drop", "Real-time Sensors", "Canvas API"],
+      "features": [
+        "Drag-and-drop building layouts",
+        "Real-time sensor data integration",
+        "Layer creation and management",
+        "Advanced SVG editing tools",
+        "Security system visualization",
+        "Export to multiple formats"
+      ],
+      "links": {},
+      "status": "completed",
+      "startDate": "2021-08",
+      "endDate": "2022-10"
+    },
+    {
+      "id": "4",
+      "title": "MoveOn E-commerce Platform",
+      "description": "Comprehensive e-commerce platform with integrated backend panels for sales, marketing, and logistics. Built with Next.js and Redux for optimal performance.",
+      "image": "/images/project4.jpg",
+      "technologies": ["Next.js", "React.js", "Redux", "PHP", "Laravel", "Ant Design"],
+      "features": [
+        "Multi-departmental backend panels",
+        "SEO-friendly PWA implementation",
+        "Unified codebase for web and mobile",
+        "Advanced product search functionality",
+        "Real-time inventory management",
+        "Performance-optimized APIs"
+      ],
+      "links": {
+        "live": "https://moveon.com.bd"
+      },
+      "status": "completed",
+      "startDate": "2019-07",
+      "endDate": "2021-05"
+    },
+    {
+      "id": "5",
+      "title": "Online Learning Platform",
+      "description": "Comprehensive learning platform with user authentication, course categorization, and progress tracking. Built during university studies with focus on user engagement.",
+      "image": "/images/project5.jpg",
+      "technologies": ["React.js", "MongoDB", "Bootstrap", "React Router", "JWT"],
+      "features": [
+        "User authentication system",
+        "Course categorization and filtering",
+        "Progress tracking and analytics",
+        "Interactive learning modules",
+        "Responsive design",
+        "Student-teacher interaction"
+      ],
+      "links": {},
+      "status": "completed",
+      "startDate": "2017-03",
+      "endDate": "2017-11"
+    },
+    {
+      "id": "6",
+      "title": "E-Commerce with Recommendation System",
+      "description": "Advanced e-commerce platform featuring personalized product recommendations, multiple payment gateways, and comprehensive analytics for improved user engagement.",
+      "image": "/images/project6.jpg",
+      "technologies": ["React.js", "Node.js", "Express", "MongoDB", "Stripe", "PayPal", "Machine Learning"],
+      "features": [
+        "Personalized product recommendations",
+        "Multiple payment gateway integration",
+        "Advanced analytics and reporting",
+        "User behavior tracking",
+        "Responsive design optimization",
+        "CI/CD pipeline implementation"
+      ],
+      "links": {},
+      "status": "completed",
+      "startDate": "2018-01",
+      "endDate": "2020-05"
+    }
+  ],
+  "research": [
+    {
+      "id": "1",
+      "title": "Micro Frontend Architecture Performance Analysis",
+      "description": "Research on micro frontend architecture implementation and its impact on application performance and scalability in enterprise environments.",
+      "status": "completed",
+      "publishDate": "2022-08",
+      "authors": ["Koushik Saha"],
+      "abstract": "This research analyzes the implementation of micro frontend architecture and its performance benefits, demonstrating a 25% improvement in scalability and 30% reduction in operational costs through practical implementation at Codemen Solution Inc.",
+      "keywords": ["Micro Frontend", "Performance", "Scalability", "Architecture", "Web Development"],
+      "links": {}
+    },
+    {
+      "id": "2",
+      "title": "JSON-Driven Dynamic Web Rendering Systems",
+      "description": "Investigation into JSON-based content management systems that enable dynamic website generation without traditional frontend development.",
+      "status": "completed",
+      "publishDate": "2022-03",
+      "authors": ["Koushik Saha"],
+      "abstract": "This research explores innovative approaches to web development through JSON-driven rendering systems, enabling non-technical users to create and manage websites dynamically, potentially revolutionizing content management workflows.",
+      "keywords": ["JSON", "Dynamic Rendering", "CMS", "Web Development", "Automation"],
+      "links": {}
+    },
+    {
+      "id": "3",
+      "title": "Energy Management Application User Engagement Optimization",
+      "description": "Ongoing research on optimizing user engagement in energy management applications through responsive design and performance enhancements.",
+      "status": "in-progress",
+      "startDate": "2023-01",
+      "expectedCompletion": "2024-06",
+      "collaborators": ["Powerley Engineering Team"],
+      "abstract": "This ongoing research focuses on analyzing user engagement patterns in energy management applications and developing strategies to improve user interaction through responsive design and performance optimization techniques.",
+      "keywords": ["User Engagement", "Energy Management", "PWA", "Performance Optimization"],
+      "links": {}
+    }
+  ],
+  "volunteer": [
+    {
+      "id": "1",
+      "organization": "JAAGO Foundation",
+      "role": "Senior Member",
+      "startDate": "2018-03",
+      "endDate": "present",
+      "description": "Active participation in volunteer activities, driving educational and community development projects for underprivileged children, and operating a school for disabled children.",
+      "achievements": [
+        "Achieved significant academic and social improvements for over 100 students annually",
+        "Increased enrollment by 25% through community outreach programs",
+        "Led educational initiatives for disabled children",
+        "Organized community development projects"
+      ]
+    }
+  ],
+  "social": {
+    "github": "https://github.com/Koushik-Saha",
+    "linkedin": "https://linkedin.com/in/Koushik-saha20",
+    "twitter": "https://twitter.com/KoushikSaha",
+    "email": "Koushik.saha666@gmail.com"
+  }
+}

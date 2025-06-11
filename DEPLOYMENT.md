@@ -1,6 +1,6 @@
 # 🚀 Deployment Guide
 
-This guide covers deploying the Koushik Saha Portfolio to Vercel with CI/CD, analytics, and performance monitoring.
+This guide covers deploying the Deluar Hossion Portfolio to Vercel with CI/CD, analytics, and performance monitoring.
 
 ## 📋 Prerequisites
 
@@ -12,14 +12,14 @@ This guide covers deploying the Koushik Saha Portfolio to Vercel with CI/CD, ana
 
 ### Option 1: One-Click Deploy (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Koushik-Saha/Dell-Portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Deluar-Hossion/Dell-Portfolio)
 
 ### Option 2: Manual Setup
 
 1. **Connect GitHub Repository**
    ```bash
    # Visit https://vercel.com/new
-   # Import your GitHub repository: Koushik-Saha/Dell-Portfolio
+   # Import your GitHub repository: Deluar-Hossion/Dell-Portfolio
    ```
 
 2. **Configure Project Settings**
@@ -116,7 +116,7 @@ Our CI/CD pipeline includes:
 
 1. Go to your project dashboard
 2. Navigate to **Settings** → **Domains**
-3. Add your custom domain: `koushiksaha.dev`
+3. Add your custom domain: `deluarhossion.dev`
 
 ### 2. Configure DNS
 
@@ -234,7 +234,7 @@ Consider adding:
 
 - **Vercel Docs**: [vercel.com/docs](https://vercel.com/docs)
 - **Next.js Docs**: [nextjs.org/docs](https://nextjs.org/docs)
-- **GitHub Issues**: [Repository Issues](https://github.com/Koushik-Saha/Dell-Portfolio/issues)
+- **GitHub Issues**: [Repository Issues](https://github.com/Deluar-Hossion/Dell-Portfolio/issues)
 
 ## 📚 Additional Resources
 

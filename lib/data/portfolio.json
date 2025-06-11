@@ -1,11 +1,11 @@
 {
   "personal": {
-    "name": "Koushik Saha",
+    "name": "Deluar Hossion",
     "title": "Software Engineer",
     "bio": "Driven and innovative Software Engineer, skilled in React, Next.js, Node.js, Python and micro front-end architecture. Excels at developing scalable, high-performance applications while mentoring junior developers to achieve team goals. Enthusiastic about fostering collaboration, delivering user-focused solutions, and creating a supportive environment that accelerates project delivery and maximizes business impact.",
     "avatar": "/images/avatar.jpg",
     "accentColor": "#3B82F6",
-    "email": "Koushik.saha666@gmail.com",
+    "email": "deluar.hossion@gmail.com",
     "location": "Los Angeles, CA, USA",
     "phone": "(747)-231-8876"
   },
@@ -314,7 +314,7 @@
       "description": "Research on micro frontend architecture implementation and its impact on application performance and scalability in enterprise environments.",
       "status": "completed",
       "publishDate": "2022-08",
-      "authors": ["Koushik Saha"],
+      "authors": ["Deluar Hossion"],
       "abstract": "This research analyzes the implementation of micro frontend architecture and its performance benefits, demonstrating a 25% improvement in scalability and 30% reduction in operational costs through practical implementation at Codemen Solution Inc.",
       "keywords": ["Micro Frontend", "Performance", "Scalability", "Architecture", "Web Development"],
       "links": {}
@@ -325,7 +325,7 @@
       "description": "Investigation into JSON-based content management systems that enable dynamic website generation without traditional frontend development.",
       "status": "completed",
       "publishDate": "2022-03",
-      "authors": ["Koushik Saha"],
+      "authors": ["Deluar Hossion"],
       "abstract": "This research explores innovative approaches to web development through JSON-driven rendering systems, enabling non-technical users to create and manage websites dynamically, potentially revolutionizing content management workflows.",
       "keywords": ["JSON", "Dynamic Rendering", "CMS", "Web Development", "Automation"],
       "links": {}
@@ -360,9 +360,9 @@
     }
   ],
   "social": {
-    "github": "https://github.com/Koushik-Saha",
-    "linkedin": "https://linkedin.com/in/Koushik-saha20",
-    "twitter": "https://twitter.com/KoushikSaha",
-    "email": "Koushik.saha666@gmail.com"
+    "github": "https://github.com/Deluar-Hossion",
+    "linkedin": "https://linkedin.com/in/deluar-hossion",
+    "twitter": "https://twitter.com/DeluarHossion",
+    "email": "deluar.hossion@gmail.com"
   }
 }

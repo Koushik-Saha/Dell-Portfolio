@@ -1,6 +1,6 @@
-# Dell Portfolio - Modern Portfolio Website
+# Deluar Hossion Portfolio - Modern Portfolio Website
 
-A beautiful, responsive portfolio website built with Next.js 15+, Tailwind CSS 4.1+, and Framer Motion. Features Apple-inspired design, dark mode support, and a comprehensive onboarding system.
+A beautiful, responsive portfolio website for Deluar Hossion, built with Next.js 15+, Tailwind CSS 4.1+, and Framer Motion. Features Apple-inspired design, dark mode support, and a comprehensive onboarding system.
 
 ## ✨ Features
 
@@ -17,9 +17,9 @@ A beautiful, responsive portfolio website built with Next.js 15+, Tailwind CSS 4
 
 ## 🌐 Live Demo
 
-🔗 **Production**: [https://dell-portfolio-koushik.vercel.app](https://dell-portfolio-koushik.vercel.app)
+🔗 **Production**: [https://dell-portfolio-deluar.vercel.app](https://dell-portfolio-deluar.vercel.app)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Koushik-Saha/Dell-Portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Deluar-Hossion/Dell-Portfolio)
 
 ## 🚀 Getting Started
 

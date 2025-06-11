@@ -49,7 +49,7 @@ export default function HomePage() {
             whileHover={{ scale: 1.05 }}
             className="text-xl font-bold"
           >
-            Koushik Saha
+            Deluar Hossion
           </motion.div>
           
           <div className="flex items-center gap-4">
@@ -89,7 +89,8 @@ export default function HomePage() {
                 >
                   Hi, I'm{' '}
                   <span className="bg-gradient-to-r from-accent-500 to-accent-700 bg-clip-text text-transparent">
-                    {data.personal.name.split(' ')[0]}
+                    {/*{data.personal.name.split(' ')[0]}*/}
+                    {data.personal.name}
                   </span>
                 </motion.h1>
                 

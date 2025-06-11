@@ -80,7 +80,7 @@ export default function HomePage() {
               className="space-y-8"
             >
               {/* Main Heading */}
-              <div className="space-y-4">
+              <div className="space-y-4 mt-20">
                 <motion.h1 
                   className="text-6xl md:text-8xl font-extrabold tracking-tight"
                   initial={{ opacity: 0, scale: 0.8 }}

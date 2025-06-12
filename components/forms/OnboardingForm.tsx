@@ -18,9 +18,10 @@ const personalInfoSchema = z.object({
 })
 
 const skillsSchema = z.object({
-  frontend: z.array(z.string()).min(1, 'Add at least one frontend skill'),
-  backend: z.array(z.string()).min(1, 'Add at least one backend skill'),
-  tools: z.array(z.string()).min(1, 'Add at least one tool'),
+  business: z.array(z.string()).min(1, 'Add at least one business skill'),
+  technical: z.array(z.string()).min(1, 'Add at least one technical skill'),
+  languages: z.array(z.string()).min(1, 'Add at least one language'),
+  soft: z.array(z.string()).min(1, 'Add at least one soft skill'),
 })
 
 const projectSchema = z.object({
@@ -69,9 +70,10 @@ export default function OnboardingForm({ onComplete }: { onComplete: () => void 
   const skillsForm = useForm<SkillsForm>({
     resolver: zodResolver(skillsSchema),
     defaultValues: {
-      frontend: data.skills.frontend,
-      backend: data.skills.backend,
-      tools: data.skills.tools,
+      business: data.skills.business,
+      technical: data.skills.technical,
+      languages: data.skills.languages,
+      soft: data.skills.soft,
     }
   })
 
@@ -343,7 +345,7 @@ function PersonalInfoStep({ form }: { form: any }) {
 }
 
 function SkillsStep({ form }: { form: any }) {
-  const [newSkill, setNewSkill] = useState({ category: 'frontend', value: '' })
+  const [newSkill, setNewSkill] = useState({ category: 'business', value: '' })
 
   const addSkill = () => {
     if (newSkill.value.trim()) {
@@ -366,7 +368,7 @@ function SkillsStep({ form }: { form: any }) {
       </div>
 
       <div className="space-y-6">
-        {['frontend', 'backend', 'tools'].map((category) => (
+        {['business', 'technical', 'languages', 'soft'].map((category) => (
           <div key={category}>
             <label className="block text-sm font-medium mb-3 capitalize">{category} Skills</label>
             <div className="flex flex-wrap gap-2 mb-3">
@@ -399,9 +401,10 @@ function SkillsStep({ form }: { form: any }) {
           onChange={(e) => setNewSkill({ ...newSkill, category: e.target.value })}
           className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800"
         >
-          <option value="frontend">Frontend</option>
-          <option value="backend">Backend</option>
-          <option value="tools">Tools</option>
+          <option value="business">Business</option>
+          <option value="technical">Technical</option>
+          <option value="languages">Languages</option>
+          <option value="soft">Soft Skills</option>
         </select>
         <input
           value={newSkill.value}

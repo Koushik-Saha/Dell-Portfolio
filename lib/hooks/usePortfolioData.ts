@@ -20,9 +20,9 @@ export interface NavigationItem {
 }
 
 export interface Skill {
-  frontend: string[]
-  backend: string[]
-  tools: string[]
+  business: string[]
+  technical: string[]
+  languages: string[]
   soft: string[]
 }
 

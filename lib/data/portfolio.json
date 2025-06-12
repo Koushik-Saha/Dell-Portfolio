@@ -1,13 +1,18 @@
 {
   "personal": {
-    "name": "Deluar Hossion",
-    "title": "Software Engineer",
-    "bio": "Driven and innovative Software Engineer, skilled in React, Next.js, Node.js, Python and micro front-end architecture. Excels at developing scalable, high-performance applications while mentoring junior developers to achieve team goals. Enthusiastic about fostering collaboration, delivering user-focused solutions, and creating a supportive environment that accelerates project delivery and maximizes business impact.",
+    "name": "MD Deluar Hossen",
+    "title": "Business Development Manager | International Business Management Graduate",
+    "bio": "Open-minded and extroverted professional with expertise in International Business Management. Passionate about learning, collaboration, and helping others succeed. Proven analytical abilities and excellent communication skills with experience in business development, customer relations, and project management. Committed to perfection and organizational efficiency.",
     "avatar": "/images/avatar.jpg",
     "accentColor": "#3B82F6",
-    "email": "deluar.hossion@gmail.com",
-    "location": "Los Angeles, CA, USA",
-    "phone": "(747)-231-8876"
+    "email": "deluar600626@gmail.com",
+    "location": "H# 103/104, R# Avenue, B#B, S#1, Rainkhola, Mirpur, Dhaka-1216, Bangladesh",
+    "phone": "+8801749600626",
+    "dateOfBirth": "October 21st, 1997",
+    "placeOfBirth": "Dhamoirhat, Naogaon",
+    "nationality": "Bangladeshi",
+    "civilStatus": "Single",
+    "driverLicense": "DK1142916CL0002"
   },
   "navigation": [
     { "id": "home", "label": "Home", "href": "/" },
@@ -18,351 +23,409 @@
     { "id": "contact", "label": "Contact & Resume", "href": "/contact" }
   ],
   "skills": {
-    "frontend": [
-      "React.js", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "SCSS",
-      "Redux Toolkit", "React Query", "React Router", "React Hook Form", "Tailwind CSS",
-      "Styled-components", "Ant Design", "Bootstrap", "React Spring", "Anime.js"
+    "business": [
+      "Business Development", "International Business Management", "Project Management", "Customer Relationship Management",
+      "Operations Management", "Supply Chain Management", "Marketing", "Human Resource Management",
+      "Organizational Behavior", "International Trade", "Market Research", "Consumer Behavior"
     ],
-    "backend": [
-      "Node.js", "Express.js", "Python", "Django", "PHP", "Laravel",
-      "MongoDB", "MySQL", "PostgreSQL", "REST APIs", "JWT", "Auth0"
+    "technical": [
+      "MS Office Suite", "Excel Advanced", "PowerPoint", "Management Information Systems",
+      "Data Analysis", "Market Survey", "Business Analytics", "Research Methods"
     ],
-    "tools": [
-      "Git", "Bitbucket", "Docker", "AWS S3", "Jenkins", "Figma", "Adobe XD", "Photoshop",
-      "Jest", "Cypress", "Selenium", "ESLint", "Prettier", "Storybook", "Jira", "Slack"
+    "languages": [
+      "English (Fluent - IELTS Certified)", "Bangla (Native)", "Chinese Mandarin (Conversational)"
     ],
     "soft": [
-      "Effective Communication", "Strategic Problem-Solving", "Team Collaboration",
-      "Mentorship", "Requirement Analysis", "Creative Thinking", "Research & Development"
+      "Leadership", "Public Speaking", "Communication", "Good Sense of Humor",
+      "Analytical Thinking", "Team Collaboration", "Cultural Adaptation", "Problem Solving",
+      "Negotiation", "Customer Service", "Organizational Skills", "Time Management"
     ]
   },
   "education": [
     {
       "id": "1",
-      "institution": "California State University, Northridge",
-      "degree": "Master of Science in Engineering Management",
-      "field": "Engineering Management",
-      "startDate": "2022-08",
-      "endDate": "2024-05",
-      "gpa": "3.8/4.0",
-      "description": "Advanced studies in engineering management, project management, and strategic leadership in technology organizations.",
-      "coursework": ["Engineering Economics", "Project Management", "Systems Engineering", "Quality Management", "Leadership"]
+      "institution": "Sichuan University",
+      "degree": "Bachelor's Degree in International Business Management (IBM)",
+      "field": "International Business Management",
+      "startDate": "2018-03",
+      "endDate": "2021-12",
+      "gpa": "3.29/4.0",
+      "description": "Comprehensive business education focusing on international trade, management, and cross-cultural business practices at one of China's top universities.",
+      "coursework": ["Business Foundation & Communication", "Human Resource Management", "Organizational Behavior", "Customer Relation Management", "Operation Management", "Marketing", "Management Information System", "Supply Chain Management", "International Trade & Market Survey", "Consumer Behavior"],
+      "location": "Business School, No.24 South Section 1, Yihuan Road, Chengdu, China, 610065",
+      "website": "https://en.scu.edu.cn/"
     },
     {
       "id": "2",
-      "institution": "North South University",
-      "degree": "Bachelor of Science in Computer Science & Engineering",
-      "field": "Computer Science & Engineering",
-      "startDate": "2014-01",
-      "endDate": "2018-04",
-      "gpa": "3.7/4.0",
-      "description": "Comprehensive computer science education with focus on software engineering, algorithms, and system design.",
-      "coursework": ["Data Structures", "Algorithms", "Software Engineering", "Database Systems", "Operating Systems", "Computer Networks"]
+      "institution": "Dhaka Commerce College",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "field": "Business Studies",
+      "startDate": "2014-06",
+      "endDate": "2014-07",
+      "gpa": "5.0/5.0",
+      "description": "Excellent performance in higher secondary education with focus on business studies.",
+      "coursework": ["Business Studies", "Economics", "Accounting", "Mathematics"],
+      "location": "Mirpur, Dhaka, Bangladesh",
+      "website": "https://www.dcc.edu.bd/"
+    },
+    {
+      "id": "3",
+      "institution": "Chakmoiram Model High School",
+      "degree": "Secondary School Certificate (SSC)",
+      "field": "Business Studies",
+      "startDate": "2007-01",
+      "endDate": "2012-05",
+      "gpa": "4.19/5.0",
+      "description": "Strong foundation in secondary education with emphasis on business studies.",
+      "coursework": ["Business Studies", "Mathematics", "Science", "English", "Bangla"],
+      "location": "Dhamoirhat, Naogaon, Bangladesh"
     }
   ],
   "certificates": [
     {
       "id": "1",
-      "name": "Web Development – React JS Certificate Training",
-      "issuer": "Coursera",
-      "issueDate": "2018-06",
-      "expiryDate": "Lifetime",
-      "credentialId": "COURSERA-REACT-2018",
-      "image": "/images/certificates/react-coursera.png"
+      "name": "IELTS - English Language Competency",
+      "issuer": "IELTS Australia and Cambridge Assessment",
+      "issueDate": "2015-12",
+      "expiryDate": "2017-12",
+      "credentialId": "IELTS-2015",
+      "description": "Certified as a competent user of English language",
+      "image": "/images/certificates/ielts.png"
     },
     {
       "id": "2",
-      "name": "JavaScript Development Certified Professional",
-      "issuer": "Coursera",
-      "issueDate": "2019-10",
+      "name": "Cooking Competition - 2nd Place",
+      "issuer": "Sichuan University",
+      "issueDate": "2018-05",
       "expiryDate": "Lifetime",
-      "credentialId": "COURSERA-JS-2019",
-      "image": "/images/certificates/js-coursera.png"
+      "credentialId": "SCU-COOK-2018",
+      "description": "Achieved 2nd place in Sichuan University annual cooking competition",
+      "image": "/images/certificates/cooking-competition.png"
     }
   ],
   "experience": [
     {
       "id": "1",
-      "company": "Powerley",
-      "position": "Software Engineer",
-      "startDate": "2023-01",
+      "company": "Eminence Structures Ltd",
+      "position": "Assistant Manager",
+      "startDate": "2022-01",
       "endDate": null,
-      "location": "Royal Oak, Michigan (Remote)",
-      "description": "Energy management company focused on building scalable web applications for 1M+ users, driving energy efficiency and green energy adoption.",
+      "location": "2/A, 20/2, (3rd Floor) Zoo Road, Rainkhola Mirpur-2, Dhaka-1216, Bangladesh",
+      "description": "Leading business development initiatives and managing client relationships for a prominent structures company.",
       "responsibilities": [
-        "Designed and developed a responsive Progressive Web Application for 1M users, driving 30% higher engagement",
-        "Engineered a React JS-powered system for power supply calculations, enhancing data processing efficiency",
-        "Developed a scalable React JS component library, reducing UI development time by 25%",
-        "Launched an NPM library for components, achieving 40% reduction in development time",
-        "Leveraged Tailwind CSS and Docker to streamline development and deployment processes"
+        "Communicate effectively with clients to understand their needs and requirements",
+        "Manage multiple projects simultaneously ensuring timely delivery and quality standards",
+        "Handle customer relations and conduct negotiations for business deals",
+        "Develop and implement business development strategies",
+        "Coordinate with internal teams to ensure project success"
       ],
-      "technologies": ["React.js", "Next.js", "Tailwind CSS", "Docker", "PWA", "NPM"],
+      "technologies": ["MS Office", "Excel", "PowerPoint", "Project Management", "CRM"],
       "achievements": [
-        "Improved user engagement by 30% through responsive PWA development",
-        "Reduced development time by 40% with reusable component library",
-        "Mentored junior developers and fostered collaborative team environment",
-        "Enhanced performance and integrated security best practices"
-      ]
+        "Successfully managed multiple high-value projects",
+        "Improved client satisfaction through effective communication",
+        "Negotiated favorable business deals contributing to company growth",
+        "Streamlined project management processes"
+      ],
+      "website": "https://www.eminence.com.bd/"
     },
     {
       "id": "2",
-      "company": "Codemen Solution Inc",
-      "position": "Software Engineer",
-      "startDate": "2021-05",
-      "endDate": "2022-12",
-      "location": "Dhaka, Bangladesh (Remote)",
-      "description": "Software management company specializing in micro front-end architecture and innovative development solutions.",
+      "company": "HKD International Kindergarten",
+      "position": "English Second Language Teacher",
+      "startDate": "2018-12",
+      "endDate": "2020-01",
+      "location": "Chengdu, Sichuan, China",
+      "description": "Teaching English as a second language at a renowned international kindergarten for children.",
       "responsibilities": [
-        "Implemented micro front-end architecture, increasing performance and scalability by 25%",
-        "Streamlined deployments using reusable JSON-based code, reducing development effort",
-        "Created a React JS-based SVG modifier library with Photoshop-like functionalities",
-        "Optimized MongoDB for efficient data storage and retrieval, improving query performance",
-        "Developed Bootstrap-inspired UI library, cutting UI development time by 20%"
+        "Developed and implemented age-appropriate English curriculum for kindergarten students",
+        "Created engaging and interactive learning activities for young learners",
+        "Assessed student progress and provided feedback to parents",
+        "Collaborated with international teaching staff to enhance learning outcomes",
+        "Organized cultural exchange activities and events"
       ],
-      "technologies": ["React.js", "MongoDB", "SVG", "Micro Frontend", "JSON", "Bootstrap"],
+      "technologies": ["Educational Technology", "MS Office", "PowerPoint", "Communication"],
       "achievements": [
-        "Reduced company costs by 30% through micro front-end implementation",
-        "Enhanced productivity by 40% with SVG modifier library",
-        "Improved query performance through MongoDB optimization",
-        "Built reusable component systems for multiple projects"
+        "Successfully taught diverse group of international students",
+        "Improved students' English communication skills",
+        "Received positive feedback from parents and management",
+        "Contributed to multicultural learning environment"
       ]
     },
     {
       "id": "3",
-      "company": "MoveOn Technologies Ltd",
-      "position": "Software Engineer",
-      "startDate": "2019-07",
-      "endDate": "2021-05",
-      "location": "Dhaka, Bangladesh (On-site)",
-      "description": "Software management company focused on e-commerce development and progressive web applications.",
+      "company": "MEDUSA",
+      "position": "Manager",
+      "startDate": "2019-06",
+      "endDate": "2019-09",
+      "location": "Chengdu, Sichuan, China",
+      "description": "Management role at a bar and restaurant establishment in Chengdu.",
       "responsibilities": [
-        "Built e-commerce platforms using Next.js and React.js with integrated backend panels",
-        "Designed and deployed SEO-friendly PWA with Next.js and Redux for unified deployments",
-        "Constructed energetic dashboards and landing pages using React.js and Ant Design",
-        "Developed PHP and Laravel APIs, reducing response times by 20%",
-        "Coordinated with cross-functional teams for seamless integration"
+        "Managed daily operations of bar and restaurant",
+        "Supervised staff and ensured excellent customer service",
+        "Coordinated with kitchen and bar staff for smooth operations",
+        "Handled customer relations and resolved complaints",
+        "Managed inventory and supply chain for food and beverages"
       ],
-      "technologies": ["Next.js", "React.js", "Redux", "PHP", "Laravel", "Ant Design", "PWA"],
+      "technologies": ["Management", "Customer Service", "Operations", "Leadership"],
       "achievements": [
-        "Enhanced operational efficiency through integrated e-commerce platforms",
-        "Achieved unified codebase for web, Play Store, and App Store deployments",
-        "Boosted system performance by 30% through backend optimization",
-        "Improved user interaction through enhanced UI/UX design"
+        "Successfully managed restaurant operations during peak hours",
+        "Improved customer satisfaction through service quality",
+        "Developed leadership and management skills",
+        "Gained experience in hospitality industry"
       ]
     },
     {
       "id": "4",
-      "company": "BD SOFT IT",
-      "position": "Junior Software Engineer",
-      "startDate": "2018-06",
-      "endDate": "2019-07",
-      "location": "Dhaka, Bangladesh (On-site)",
-      "description": "Software management company focused on component library development and scalable solutions.",
+      "company": "Eminence Structures Ltd",
+      "position": "Business Development Intern",
+      "startDate": "2021-07",
+      "endDate": "2021-12",
+      "location": "2/A, 20/2, (3rd Floor) Zoo Road, Rainkhola Mirpur-2, Dhaka-1216, Bangladesh",
+      "description": "Internship program focused on business development and learning industry practices.",
       "responsibilities": [
-        "Introduced JavaScript component library, improving code reusability and reducing redundancy",
-        "Worked closely with backend developers to integrate frontend components with server-side logic",
-        "Designed and implemented scalable solutions to address evolving project requirements",
-        "Focused on optimizing workflows to create maintainable, efficient, and future-proof codebases"
+        "Assisted in business development activities and client communications",
+        "Supported project coordination and management tasks",
+        "Participated in client meetings and business negotiations",
+        "Conducted market research and analysis for business opportunities",
+        "Learned company processes and industry best practices"
       ],
-      "technologies": ["JavaScript", "Component Libraries", "Frontend Integration"],
+      "technologies": ["MS Office", "Excel", "PowerPoint", "Market Research"],
       "achievements": [
-        "Streamlined project workflows enabling faster development cycles",
-        "Improved system reliability through seamless functionality integration",
-        "Created maintainable and scalable solutions for multiple projects",
-        "Enhanced development efficiency through reusable components"
-      ]
+        "Successfully completed comprehensive internship program",
+        "Gained valuable experience in business development",
+        "Contributed to multiple business proposals and presentations",
+        "Received positive feedback leading to full-time position offer"
+      ],
+      "website": "https://www.eminence.com.bd/"
     }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Energy Management PWA for Powerley",
-      "description": "Progressive Web Application serving over 1M users for DTE Energy, focusing on energy management and green energy adoption. Features dynamic power calculations and real-time energy monitoring.",
+      "title": "Mobile Banking Adoption Research Project",
+      "description": "Comprehensive quantitative research study analyzing factors influencing mobile banking dependency in Bangladesh. Conducted extensive market research and data analysis.",
       "image": "/images/project1.jpg",
-      "technologies": ["React.js", "Next.js", "PWA", "Tailwind CSS", "Docker", "Energy APIs"],
+      "technologies": ["Market Research", "Data Analysis", "SPSS", "Excel", "Survey Design", "Statistical Analysis"],
       "features": [
-        "Power supply calculation system",
-        "Real-time energy monitoring",
-        "Green energy utilization tracking",
-        "User engagement optimization",
-        "Responsive design for all devices",
-        "Performance optimization for 1M+ users"
+        "Quantitative research methodology",
+        "Consumer behavior analysis",
+        "Statistical data modeling",
+        "Market trend identification",
+        "Policy recommendation framework",
+        "Academic presentation and documentation"
       ],
       "links": {
         "github": "",
-        "live": "https://powerley.com"
+        "live": ""
       },
       "status": "completed",
-      "startDate": "2023-01",
-      "endDate": null
+      "startDate": "2021-01",
+      "endDate": "2021-06"
     },
     {
       "id": "2",
-      "title": "JSON-Driven CMS Platform",
-      "description": "WordPress-like platform that dynamically renders websites using JSON configurations. Allows non-technical users to launch and manage thousands of websites without frontend developers.",
+      "title": "Business Development Strategy for Eminence Structures",
+      "description": "Comprehensive business development project focusing on client acquisition, project management, and market expansion strategies for construction company.",
       "image": "/images/project2.jpg",
-      "technologies": ["React.js", "JSON", "Micro Frontend", "MongoDB", "Dynamic Rendering"],
+      "technologies": ["Market Analysis", "CRM", "Project Management", "Excel", "PowerPoint", "Business Analytics"],
       "features": [
-        "JSON-based website configuration",
-        "Dynamic page and component rendering",
-        "Multi-site management system",
-        "No-code website builder",
-        "Scalable architecture for 1000+ sites",
-        "Real-time preview and editing"
+        "Client relationship management system",
+        "Market penetration analysis",
+        "Project portfolio optimization",
+        "Customer satisfaction improvement",
+        "Sales process streamlining",
+        "Performance metrics and KPI tracking"
       ],
       "links": {
         "github": "",
-        "live": ""
+        "live": "https://www.eminence.com.bd/"
       },
       "status": "completed",
-      "startDate": "2021-05",
-      "endDate": "2022-12"
+      "startDate": "2022-01",
+      "endDate": null
     },
     {
       "id": "3",
-      "title": "SVG Security Layout Designer",
-      "description": "Drag-and-drop SVG editor for designing security layouts with real-time sensor integration. Features Photoshop-like functionalities including layer management and advanced editing tools.",
+      "title": "International Student Coordination Program",
+      "description": "Comprehensive program designed to facilitate international student integration at Sichuan University, including orientation, mentorship, and cultural adaptation support.",
       "image": "/images/project3.jpg",
-      "technologies": ["React.js", "SVG", "Drag & Drop", "Real-time Sensors", "Canvas API"],
+      "technologies": ["Program Management", "Cross-cultural Communication", "Event Planning", "Student Services"],
       "features": [
-        "Drag-and-drop building layouts",
-        "Real-time sensor data integration",
-        "Layer creation and management",
-        "Advanced SVG editing tools",
-        "Security system visualization",
-        "Export to multiple formats"
+        "New student orientation programs",
+        "Cultural integration workshops",
+        "Academic support coordination",
+        "International community building",
+        "Campus tour and guidance system",
+        "Ongoing mentorship programs"
       ],
       "links": {
         "github": "",
-        "live": ""
+        "live": "https://en.scu.edu.cn/"
       },
       "status": "completed",
-      "startDate": "2021-08",
-      "endDate": "2022-10"
+      "startDate": "2019-03",
+      "endDate": "2021-12"
     },
     {
       "id": "4",
-      "title": "MoveOn E-commerce Platform",
-      "description": "Comprehensive e-commerce platform with integrated backend panels for sales, marketing, and logistics. Built with Next.js and Redux for optimal performance.",
+      "title": "English Language Teaching Program for International Students",
+      "description": "Designed and implemented comprehensive English as Second Language (ESL) curriculum for kindergarten students at prestigious international school in China.",
       "image": "/images/project4.jpg",
-      "technologies": ["Next.js", "React.js", "Redux", "PHP", "Laravel", "Ant Design"],
+      "technologies": ["Curriculum Development", "Educational Technology", "Assessment Tools", "Interactive Learning"],
       "features": [
-        "Multi-departmental backend panels",
-        "SEO-friendly PWA implementation",
-        "Unified codebase for web and mobile",
-        "Advanced product search functionality",
-        "Real-time inventory management",
-        "Performance-optimized APIs"
+        "Age-appropriate curriculum design",
+        "Interactive learning methodologies",
+        "Student progress tracking system",
+        "Parent communication framework",
+        "Cultural integration activities",
+        "Assessment and evaluation tools"
       ],
       "links": {
         "github": "",
-        "live": "https://moveon.com.bd"
+        "live": ""
       },
       "status": "completed",
-      "startDate": "2019-07",
-      "endDate": "2021-05"
+      "startDate": "2018-12",
+      "endDate": "2020-01"
     },
     {
       "id": "5",
-      "title": "Online Learning Platform",
-      "description": "Comprehensive learning platform with user authentication, course categorization, and progress tracking. Built during university studies with focus on user engagement.",
+      "title": "MANOB SHEBA Social Welfare Organization Leadership",
+      "description": "Leading community development initiatives and social welfare programs as General Secretary of MANOB SHEBA organization in rural Bangladesh.",
       "image": "/images/project5.jpg",
-      "technologies": ["React.js", "MongoDB", "Bootstrap", "React Router", "JWT"],
+      "technologies": ["Community Organizing", "Project Management", "Social Work", "Event Planning", "Fundraising"],
       "features": [
-        "User authentication system",
-        "Course categorization and filtering",
-        "Progress tracking and analytics",
-        "Interactive learning modules",
-        "Responsive design",
-        "Student-teacher interaction"
+        "Community development programs",
+        "Educational awareness campaigns",
+        "Health and welfare initiatives",
+        "Disaster relief coordination",
+        "Volunteer management system",
+        "Community engagement strategies"
       ],
       "links": {
         "github": "",
         "live": ""
       },
       "status": "completed",
-      "startDate": "2017-03",
-      "endDate": "2017-11"
+      "startDate": "2020-03",
+      "endDate": null
     },
     {
       "id": "6",
-      "title": "E-Commerce with Recommendation System",
-      "description": "Advanced e-commerce platform featuring personalized product recommendations, multiple payment gateways, and comprehensive analytics for improved user engagement.",
+      "title": "Restaurant Management and Operations at MEDUSA",
+      "description": "Comprehensive restaurant and bar management project focusing on operations optimization, staff coordination, and customer service excellence.",
       "image": "/images/project6.jpg",
-      "technologies": ["React.js", "Node.js", "Express", "MongoDB", "Stripe", "PayPal", "Machine Learning"],
+      "technologies": ["Operations Management", "Staff Coordination", "Customer Service", "Inventory Management", "Quality Control"],
       "features": [
-        "Personalized product recommendations",
-        "Multiple payment gateway integration",
-        "Advanced analytics and reporting",
-        "User behavior tracking",
-        "Responsive design optimization",
-        "CI/CD pipeline implementation"
+        "Daily operations management",
+        "Staff scheduling and supervision",
+        "Customer service optimization",
+        "Inventory and supply chain management",
+        "Quality control processes",
+        "Financial performance tracking"
       ],
       "links": {
         "github": "",
         "live": ""
       },
       "status": "completed",
-      "startDate": "2018-01",
-      "endDate": "2020-05"
+      "startDate": "2019-06",
+      "endDate": "2019-09"
     }
   ],
   "research": [
     {
       "id": "1",
-      "title": "Micro Frontend Architecture Performance Analysis",
-      "description": "Research on micro frontend architecture implementation and its impact on application performance and scalability in enterprise environments.",
+      "title": "What Factors Influence The Increasing Dependency On Mobile Banking In Bangladesh? A Quantitative Study In Bangladesh",
+      "description": "Undergraduate research work examining the factors driving mobile banking adoption in Bangladesh through quantitative analysis.",
       "status": "completed",
-      "publishDate": "2022-08",
-      "authors": ["Deluar Hossion"],
-      "abstract": "This research analyzes the implementation of micro frontend architecture and its performance benefits, demonstrating a 25% improvement in scalability and 30% reduction in operational costs through practical implementation at Codemen Solution Inc.",
-      "keywords": ["Micro Frontend", "Performance", "Scalability", "Architecture", "Web Development"],
-      "links": {}
-    },
-    {
-      "id": "2",
-      "title": "JSON-Driven Dynamic Web Rendering Systems",
-      "description": "Investigation into JSON-based content management systems that enable dynamic website generation without traditional frontend development.",
-      "status": "completed",
-      "publishDate": "2022-03",
-      "authors": ["Deluar Hossion"],
-      "abstract": "This research explores innovative approaches to web development through JSON-driven rendering systems, enabling non-technical users to create and manage websites dynamically, potentially revolutionizing content management workflows.",
-      "keywords": ["JSON", "Dynamic Rendering", "CMS", "Web Development", "Automation"],
-      "links": {}
-    },
-    {
-      "id": "3",
-      "title": "Energy Management Application User Engagement Optimization",
-      "description": "Ongoing research on optimizing user engagement in energy management applications through responsive design and performance enhancements.",
-      "status": "in-progress",
-      "startDate": "2023-01",
-      "expectedCompletion": "2024-06",
-      "collaborators": ["Powerley Engineering Team"],
-      "abstract": "This ongoing research focuses on analyzing user engagement patterns in energy management applications and developing strategies to improve user interaction through responsive design and performance optimization techniques.",
-      "keywords": ["User Engagement", "Energy Management", "PWA", "Performance Optimization"],
+      "publishDate": "2021-06",
+      "authors": ["MD Deluar Hossen"],
+      "supervisor": "Dr. Yukuan Xu",
+      "institution": "Business School, Sichuan University (SCU)",
+      "abstract": "This quantitative research study investigates the various factors that contribute to the increasing dependency on mobile banking services in Bangladesh. The study analyzes consumer behavior patterns, technological adoption factors, and economic drivers that influence mobile banking usage among Bangladeshi users.",
+      "keywords": ["Mobile Banking", "Bangladesh", "Quantitative Study", "Consumer Behavior", "Financial Technology", "Digital Payment"],
+      "type": "Undergraduate Thesis",
       "links": {}
     }
   ],
   "volunteer": [
     {
       "id": "1",
-      "organization": "JAAGO Foundation",
-      "role": "Senior Member",
-      "startDate": "2018-03",
+      "organization": "MANOB SHEBA",
+      "role": "General Secretary",
+      "startDate": "2020-03",
       "endDate": null,
-      "description": "Active participation in volunteer activities, driving educational and community development projects for underprivileged children, and operating a school for disabled children.",
+      "location": "Dhamoirhat, Naogaon, Bangladesh",
+      "description": "Leading social welfare organization activities focused on community development and social service.",
       "achievements": [
-        "Achieved significant academic and social improvements for over 100 students annually",
-        "Increased enrollment by 25% through community outreach programs",
-        "Led educational initiatives for disabled children",
-        "Organized community development projects"
+        "Successfully coordinated multiple community welfare programs",
+        "Organized educational and health awareness campaigns",
+        "Led disaster relief and community support initiatives",
+        "Improved community engagement and social welfare services"
+      ]
+    },
+    {
+      "id": "2",
+      "organization": "University English Debating Club",
+      "role": "Executive Member",
+      "startDate": "2018-09",
+      "endDate": "2021-12",
+      "location": "Sichuan University, Chengdu, China",
+      "description": "Active member of SCUDC, considered among the best English debate clubs in China with unparalleled success in English debate competitions.",
+      "achievements": [
+        "Participated in multiple inter-university debate competitions",
+        "Enhanced English communication and public speaking skills",
+        "Contributed to club's reputation as top debating society in China",
+        "Developed critical thinking and argumentation abilities"
+      ]
+    },
+    {
+      "id": "3",
+      "organization": "Sichuan University International Students Office",
+      "role": "Coordinator of International Students",
+      "startDate": "2019-03",
+      "endDate": "2021-12",
+      "location": "Sichuan University, Chengdu, China",
+      "description": "Coordinated with overseas students, managed orientation programs, and guided international students in campus life and academic activities.",
+      "achievements": [
+        "Successfully guided and mentored hundreds of international students",
+        "Organized comprehensive campus orientation programs for freshers",
+        "Facilitated cultural integration and academic adaptation",
+        "Maintained strong communication network with diverse international community"
       ]
     }
   ],
   "social": {
-    "github": "https://github.com/Deluar-Hossion",
-    "linkedin": "https://linkedin.com/in/deluar-hossion",
-    "twitter": "https://twitter.com/DeluarHossion",
-    "email": "deluar.hossion@gmail.com"
-  }
+    "github": "https://github.com/md-deluar-hossen",
+    "linkedin": "https://linkedin.com/in/deluar-hossen-b9915b232",
+    "twitter": "https://twitter.com/DeluarHossen",
+    "email": "deluar600626@gmail.com"
+  },
+  "hobbies": [
+    "Socializing and Community Work",
+    "Traveling to remote areas and historical places",
+    "Watching documentaries",
+    "Reading novels",
+    "Cycling and hiking",
+    "Playing cricket"
+  ],
+  "references": [
+    {
+      "name": "Dr. Jiang Zhu",
+      "position": "Assistant Professor of Marketing Department",
+      "organization": "Business School of Sichuan University",
+      "location": "Chengdu, China, 610065",
+      "phone": "+8617666100186",
+      "email": "zhujiangjoy@scu.edu.cn"
+    },
+    {
+      "name": "Dr. Yukuan Xu",
+      "position": "Associate Professor",
+      "organization": "Business School, Sichuan University (SCU)",
+      "location": "Chengdu, China, 610065",
+      "phone": "+8615545010607",
+      "email": "xuyukuan@scu.edu.cn"
+    }
+  ]
 }

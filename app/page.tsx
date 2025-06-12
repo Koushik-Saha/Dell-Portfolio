@@ -3,13 +3,14 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { FiArrowRight, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { FiArrowRight, FiGithub, FiLinkedin, FiMail, FiMenu, FiX } from 'react-icons/fi'
 import BackgroundAnimation from '@/components/animations/BackgroundAnimation'
 import ThemeToggle from '@/components/ui/ThemeToggle'
 import { usePortfolioData } from '@/lib/hooks/usePortfolioData'
 
 export default function HomePage() {
   const [mounted, setMounted] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const { data } = usePortfolioData()
   const [typedText, setTypedText] = useState('')
   const fullText = data.personal.title
@@ -65,9 +66,51 @@ export default function HomePage() {
               ))}
             </div>
             <ThemeToggle />
+            
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            >
+              {mobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+            </button>
           </div>
         </div>
       </motion.nav>
+
+      {/* Mobile Menu Overlay */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="fixed top-20 left-0 right-0 z-40 md:hidden"
+          >
+            <div className="mx-6 bg-white/90 dark:bg-gray-900/90 backdrop-blur-lg rounded-2xl border border-gray-200 dark:border-gray-700 shadow-xl">
+              <div className="p-6 space-y-4">
+                {data.navigation.map((item, index) => (
+                  <motion.div
+                    key={item.id}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.1 }}
+                  >
+                    <Link
+                      href={item.href}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="block py-3 px-4 text-lg font-medium hover:text-accent-600 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
+                    >
+                      {item.label}
+                    </Link>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Hero Section */}
       <main className="flex items-center justify-center min-h-screen px-6">
@@ -89,7 +132,6 @@ export default function HomePage() {
                 >
                   Hi, I'm{' '}
                   <span className="bg-gradient-to-r from-accent-500 to-accent-700 bg-clip-text text-transparent">
-                    {/*{data.personal.name.split(' ')[0]}*/}
                     {data.personal.name}
                   </span>
                 </motion.h1>
@@ -123,14 +165,14 @@ export default function HomePage() {
 
               {/* CTA Buttons */}
               <motion.div 
-                className="flex flex-col sm:flex-row gap-4 justify-center mt-12"
+                className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12 w-full"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 1.4 }}
               >
-                <Link href="/portfolio">
+                <Link href="/portfolio" className="w-full sm:w-auto">
                   <motion.button
-                    className="group px-8 py-4 bg-accent-600 hover:bg-accent-700 text-white rounded-full font-medium text-lg flex items-center justify-center gap-2 transition-all duration-300"
+                    className="group w-full sm:w-auto px-8 py-4 bg-accent-600 hover:bg-accent-700 text-white rounded-full font-medium text-lg flex items-center justify-center gap-2 transition-all duration-300"
                     whileHover={{ scale: 1.05, boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}
                     whileTap={{ scale: 0.95 }}
                   >
@@ -139,9 +181,9 @@ export default function HomePage() {
                   </motion.button>
                 </Link>
                 
-                <Link href="/contact">
+                <Link href="/contact" className="w-full sm:w-auto">
                   <motion.button
-                    className="px-8 py-4 border-2 border-gray-300 dark:border-gray-600 hover:border-accent-600 dark:hover:border-accent-400 rounded-full font-medium text-lg transition-all duration-300"
+                    className="w-full sm:w-auto px-8 py-4 border-2 border-gray-300 dark:border-gray-600 hover:border-accent-600 dark:hover:border-accent-400 rounded-full font-medium text-lg flex items-center justify-center transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
